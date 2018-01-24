@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>REGISTRATION FORM</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section>
+            <h1>Registration form</h1>
+            <hr>
+            <form class="" action="index.html" method="post">
+                <!-- FIRST_NAME  -->
+                <div class="row">
+                    <label for="fname">User name :
+                        <input id="username" type="text" name="fname">
+                    </label>
+                </div>
+                <!-- PASSWORD -->
+                <div class="row">
+                    <label for="pass">Password :
+                        <input id="mypassword" type="text" name="pass">
+                    </label>
+                </div>
+                <div class="row">
+                    <!-- NAME :  -->
+                    <label for="name">Name :
+                        <input id="name" type="text" name="name">
+                    </label>
+                </div>
+                <!-- ADRESS -->
+                <div class="row">
+                    <label for="address">Address :
+                        <input id="ad" type="text" name="address">
+                    </label>
+                </div>
+                <!-- Country -->
+                <div class="row">
+                    <label for="country">Country :
+                        <select class="country" name="country">
+                            <option value="Lithuania">Lithuania</option>
+                            <option value="Latvia">Latvia</option>
+                            <option value="Estonia">Estonia</option>
+                        </select>
+                    </label>
+                </div>
+                <!-- ZIP CODE -->
+                <div class="row">
+                    <label for="zip">ZIP Code :
+                        <input id="zip" type="text" name="zip">
+                    </label>
+                </div>
+                <!-- EMAIL -->
+                <div class="row">
+                    <label for="mail">Mail :
+                        <input id="m" type="text" name="mail">
+                    </label>
+                </div>
+                <!--RADIO-GENDER  -->
+                <div class="row">
+                    <label for="Gender">Sex :
+                        <input id="sex1" type="radio" name="radio">Man
+                        <input id="sex2" type="radio" name="radio">Woman
+                    </label>
+                </div>
+
+                <!-- LANGUAGE -->
+                <div class="row">
+                    <label for="language">Language :
+                        <input id="l1" type="checkbox" name="checkbox">English
+                        <input id="l2" type="checkbox" name="checkbox">Other
+                    </label>
+                </div>
+                    <!-- About -->
+                    <div class="row">
+                        <label for="About" id="about">About : </label>
+                            <textarea name="about" rows="20" cols="80"></textarea>
+                    </div>
+                    <!-- BUTTONS -->
+                    <div class="row-btn">
+                        <button onclick="validate();" type="button" name="button">Submit</button>
+                        <button type="reset" name="button">Reset</button>
+                    </div>
+                      <script src="java.js" type="text/javascript"></script>
+            </form>
+    </body>
+</html>
